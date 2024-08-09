@@ -12,7 +12,11 @@
 
 
 	// // Welcome area init
-	if($('.owl-carousel').length){
+	// if($('.owl-carousel').length){
+		
+	// }
+
+	$(window).ready(function () {
 		var welcomeSlider = $(".owl-carousel");
 		welcomeSlider.owlCarousel({
 			loop:true,
@@ -56,7 +60,7 @@
 		$('.base .next').on('click', function(){
 			welcomeSlider.trigger('next.owl.carousel');
 		});
-	}
+	})
 
 
 	// Menu Dropdown Toggle
