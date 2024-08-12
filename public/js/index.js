@@ -109,9 +109,9 @@
 
 
 	// Project grid cover image
-	if($('.project-grid-item').length){
-		$('.project-grid-item .img').imgfix();
-	}
+	// if($('.project-grid-item').length){
+	// 	$('.project-grid-item .img').imgfix();
+	// }
 
 
 	// Project list cover image
